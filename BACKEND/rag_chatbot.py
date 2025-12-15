@@ -63,7 +63,7 @@ os.makedirs(UPLOAD_DIRECTORY, exist_ok=True)
 os.makedirs(VECTORSTORE_DIRECTORY, exist_ok=True)
 
 # Configuration
-GEMINI_API_KEY = "AIzaSyDyW7zxlEd8PiWqkpmY4SNRS-m1SNkGhDY"  # Replace with your actual API key or use environment variable
+GEMINI_API_KEY = "_api_key_"  # Replace with your actual API key or use environment variable
 
 async def initialize_chatbot():
     """Initialize the RAG chatbot"""
