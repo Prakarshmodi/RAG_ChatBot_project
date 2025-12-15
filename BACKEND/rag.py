@@ -228,8 +228,8 @@ def main():
     print("=" * 65)
     
     # Get API key
-    # api_key = "AIzaSyBw6L-p9-lY4MD1JPSNddHeHqt0yhByhcw"
-    api_key="AIzaSyDyW7zxlEd8PiWqkpmY4SNRS-m1SNkGhDY"
+    # api_key = "_api_key_"
+    api_key="_api_key_"
  
     
     # Initialize chatbot
