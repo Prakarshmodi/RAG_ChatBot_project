@@ -1,0 +1,38 @@
+#create virtual environemnet 
+python -m venv virtual_envi_name
+ 
+#command to activte virtual environtment
+.virtual_envi_name/Scripts/activate
+venv\Scripts\activate.bat
+ 
+pip install -r requirement.txt
+ 
+ 
+#deactivate
+deactivate
+ 
+ 
+#start installations of packages 
+pip install numpy pandas scikit-learn
+ 
+#now collect all the packages in requirement.txt so than others can install that requirement.txt 
+pip freeze > requirements.txt
+ 
+ 
+# someone wants to install requirement.txt  packages than run the below command 
+pip install -r reuirements.txt
+ 
+ 
+uvicorn fastapi_final:app --reload --host 0.0.0.0 --port 8000
+uvicorn chatbot_final:app --reload --host 0.0.0.0 --port 8000
+ 
+uvicorn eg1:app --reload --host 0.0.0.0 --port 8000
+
+
+----------------------------------------------------------
+backend command-->
+uvicorn rag_chatbot:app --reload --host 0.0.0.0 --port 8000
+
+frontend command-->
+npm start
+----------------------------------------------------------
